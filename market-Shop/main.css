@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: #1F2B59;
+    font-family: metropolis,sans-serif;
+    line-height: 1.73;
+}
+.right-item{
+	text-align: right;
+}
+.nav-bar{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+nav{
+	flex: 1;
+	padding: 0 20px;
+}
+nav ul {
+	list-style-type: none;
+	
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+.right-item{
+	text-align: right;
+}
+a{
+	text-decoration: none;
+	transition: 0.5s;
+}
+a:hover{
+	text-decoration: underline #FF8000;
+}
+select{
+	padding: 6px 20px;
+	border-radius: 7px;
+	border-style: solid;
+}
+.header{
+	box-shadow: 5px 3px 5px #ccc;
+
+}
+.p-cars{
+	text-align: center;
+}
+.menu{
+	
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1254px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.flex-left{
+	flex-basis: 20%;
+	margin-left: 30px;
+}
+.flex-right{
+	flex-basis: 75%;
+}
+.year-show{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.year-show input{
+	margin-right: 10px;
+	width: 30%;
+}
+input{
+	border-radius: 7px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-car1{
+	flex-basis: 30%;
+	padding: 10px;
+}
+.col-car1 img{
+	width: 100%;
+}
+.col-car1 button{
+	padding: 7px 20px;
+	border-radius: 7px;
+	transition: 1s ;
+}
+.col-car1 button .blue{
+	background-color: #3e39b5;
+}
+.col-car1 button:hover{
+	background-color: pink;
+}
+.service-menu{
+	display: none;
+}
+.left-item ul li:hover .service-menu{
+	display: block;
+	position: absolute;
+	padding: 10px;
+}
+.service-menu ul li{
+	display: block;
+	margin: 10px 15px;
+	padding: 10px;
+}
